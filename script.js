@@ -32,7 +32,7 @@ function myFunction() {
 		}
 
 	else if(inputText.toLowerCase().indexOf("work")>-1){
-		document.getElementById("answer").innerHTML="Please quote which department's work"; 	
+		document.getElementById("answer").innerHTML="Please quote which department work"; 	
 		}
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
