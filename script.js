@@ -32,7 +32,7 @@ function myFunction() {
 		}
 	else if(inputText.toLowerCase().indexOf("pay")>-1){
 			document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
-	}
+		}
 	else if(inputText.toLowerCase().indexOf("x")>-1){
 			document.getElementById("answer").innerHTML="nothing here";
 		}
@@ -42,7 +42,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("xxx")>-1){
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	} else {
-	document.getElementById("answer").innerHTML="Who cares?";      
+	document.getElementById("answer").innerHTML="not in our database";      
 	}
 
 	
