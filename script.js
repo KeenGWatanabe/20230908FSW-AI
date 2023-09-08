@@ -30,6 +30,10 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("pay")>-1){
 			document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay Suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay PettyCash Claims</a><br>'; 	
 	}
+
+	else if(inputText.toLowerCase().indexOf("work")>-1){
+		document.getElementById("answer").innerHTML="Please quote which department's work"; 	
+	}
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>'; 	
 	} else {
