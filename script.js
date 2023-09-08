@@ -42,7 +42,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("xxx")>-1){
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	} else {
-	document.getElementById("answer").innerHTML="not in our database";      
+	document.getElementById("answer").innerHTML="sorry, not in our database yet";      
 	}
 
 	
