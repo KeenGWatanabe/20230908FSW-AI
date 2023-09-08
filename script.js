@@ -3,7 +3,7 @@ function myFunction() {
 	var inputText = document.getElementById("text_a").value.trim();
 
 	if(inputText === "") {
-	document.getElementById("answer").innerHTML="Your input is blank";      
+		document.getElementById("answer").innerHTML="Your input is blank";      
 		} 
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 		document.getElementById("answer").innerHTML="You are welcome.不用客气。";
@@ -12,7 +12,7 @@ function myFunction() {
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";
 		}
 	else if(inputText.toLowerCase().indexOf("i ")>-1){
-	document.getElementById("answer").innerHTML=`Congratulations! WE ALL GONNA DIE! <br> You hit the sweetspot of humanity, the word "I" `;
+		document.getElementById("answer").innerHTML=`Congratulations! WE ALL GONNA DIE! <br> You hit the sweetspot of humanity, the word "I" `;
 		}
 		else if(inputText.toLowerCase().indexOf("god")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">A scientist has calculated that there is a 67% chance that God exists</a>'; 
@@ -31,18 +31,18 @@ function myFunction() {
 		document.getElementById("answer").innerHTML="Please quote which department work"; 	
 		}
 	else if(inputText.toLowerCase().indexOf("pay")>-1){
-			document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
+		document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
 		}
 	else if(inputText.toLowerCase().indexOf("x")>-1){
-			document.getElementById("answer").innerHTML="nothing here";
+		document.getElementById("answer").innerHTML="nothing here";
 		}
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
-			document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
+		document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
 		}	
 	else if(inputText.toLowerCase().indexOf("xxx")>-1){
-			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
+		document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	} else {
-	document.getElementById("answer").innerHTML="sorry, not in our database yet";      
+		document.getElementById("answer").innerHTML="sorry, not in our database yet";      
 	}
 
 	
