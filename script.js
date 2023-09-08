@@ -31,7 +31,7 @@ function myFunction() {
 		document.getElementById("answer").innerHTML="Please quote which department work"; 	
 		}
 	else if(inputText.toLowerCase().indexOf("x")>-1){
-			document.getElementById("answer").innerHTML="";
+			document.getElementById("answer").innerHTML="nothing here";
 		}
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
