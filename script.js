@@ -26,6 +26,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("fengshui")>-1){
 		document.getElementById("answer").innerHTML='Feng shui literally translates from Chinese as “wind” (feng) and water (“shui”). It is the art of arranging buildings, objects, space and life to achieve harmony and balance. Feng shui works on the assumption that the world is driven by unseen forces. The idea behind it is to “unblock” the way, so the forces may flow freely and create balance in a space (or life).<br><a href="https://www.fengshuiworld.sg/what-is-fengshui/" target="_blank">know more</a>';
 		}
+	else if(inputText.toLowerCase().indexOf("qimen")>-1){
+		document.getElementById("answer").innerHTML='Qimen Dunjia is an ancient form of Chinese Divination based on Chinese metaphysical and Fengshui concepts. It is an extremely potent and accurate forecasting tool that predicts the possible outcomes of any situation by revealing the hidden causes and effects influencing your unique situation, allowing you to implement strategies to get the ideal outcome, every time.<br><a href="https://www.fengshuiworld.sg/services/qimen-dunjia-consultation/" target="_blank">know more</a>';
+		}
 	else if(inputText.toLowerCase().indexOf("pay")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
 		}
