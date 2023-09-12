@@ -31,7 +31,7 @@ function myFunction() {
 		document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
 		}
 	else if(inputText.toLowerCase().indexOf("x")>-1){
-		document.getElementById("answer").innerHTML="nothing here";
+		document.getElementById("answer").innerHTML="";
 		}
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 		document.getElementById("answer").innerHTML='<a href="" target="_blank">mt</a>';
@@ -39,7 +39,7 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("xxx")>-1){
 		document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	} else {
-		document.getElementById("answer").innerHTML="sorry, not in our database yet";      
+		document.getElementById("answer").innerHTML='Please rephrase your query,<br>not in our database yet,<br>or out-of-scope for FengShuiWorld<br><a href="mailto:roger.goh@fengshuiworld.page?%20subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FSW AI developer" target="_blank">email us your enquiry</a>';      
 	}
 
 	
