@@ -17,15 +17,14 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("the developer")>-1){
 		document.getElementById("answer").innerHTML='<a href="http://web.mckeen.sg" target="_blank">developer</a>'; 
 		}
-	else if(inputText.toLowerCase().indexOf("singapore weather")>-1){
-		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a>'; 
+	else if(inputText.toLowerCase().indexOf("weather")>-1){
+		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a><br><a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
 		}
-
-	else if(inputText.toLowerCase().indexOf("the weather")>-1){
-	document.getElementById("answer").innerHTML='<a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
-		}	
 	else if(inputText.toLowerCase().indexOf("work")>-1){
 		document.getElementById("answer").innerHTML="Please quote which department work"; 	
+		}
+	else if(inputText.toLowerCase().indexOf("fengshui")>-1){
+		document.getElementById("answer").innerHTML='Feng shui literally translates from Chinese as “wind” (feng) and water (“shui”). It is the art of arranging buildings, objects, space and life to achieve harmony and balance. Feng shui works on the assumption that the world is driven by unseen forces. The idea behind it is to “unblock” the way, so the forces may flow freely and create balance in a space (or life).<br><a href="https://www.fengshuiworld.sg/what-is-fengshui/" target="_blank">know more</a>';
 		}
 	else if(inputText.toLowerCase().indexOf("pay")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://docs.google.com/spreadsheets/d/1nh1VARso7yJh-EI5ipXCwS_nx0FUJQScb7ZD0eh6Kvc/edit#gid=1389556655" target="_blank">pay suppliers</a><br><a href="https://docs.google.com/spreadsheets/d/1uFwn7pmCXhPz2u0maLk-vjcToJMX-15z0tJ04s4Ml0Y/edit?&single=false#gid=368985573" target="_blank">pay pettycash claims</a><br><a href="https://infinity.uobgroup.com/" target="_blank">pay staff salaries</a><br>'; 	
